@@ -1,3 +1,5 @@
+iwr https://raw.githubusercontent.com/VBV11/VBV11/main/EDP.jpeg?dl=1 -O $env:TEMP\horse.jpg
+
 $Image="%TEMP%/horse.jpg"
 $code = @' 
 using System.Runtime.InteropServices; 
