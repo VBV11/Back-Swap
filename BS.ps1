@@ -1,4 +1,4 @@
-$picture = "YOUR OWN IMAGE"
+$picture = "UR OWN IMAGE"
 
 iwr $picture -OutFile $env:TEMP\image.jpg
 
