@@ -1,4 +1,4 @@
-$picture = "UR OWN IMAGE URL"
+$picture = "https://paardenpro.nl/wp-content/uploads/quarter-horse-768x512.jpg"
 
 iwr $picture -OutFile $env:TEMP\image.jpg
 
