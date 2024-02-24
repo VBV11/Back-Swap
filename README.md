@@ -18,7 +18,7 @@ EXAMPLE
 
 IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)
 
-![image](https://github.com/VBV11/BackSwap/assets/104235290/f632c341-f864-4334-8fa3-96970affdc9e)
+![image](https://github.com/VBV11/BackSwap/assets/104235290/013ead12-596d-47a9-8cec-05ba71834d2d)
 
 
 # Run box command
