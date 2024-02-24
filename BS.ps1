@@ -1,4 +1,4 @@
-$picture = "https://static.wikia.nocookie.net/the-know-your-meme-archive/images/6/6c/Rickroll.jpg/revision/latest?cb=20201005232811"
+$picture = "YOUR OWN IMAGE"
 
 iwr $picture -OutFile $env:TEMP\image.jpg
 
