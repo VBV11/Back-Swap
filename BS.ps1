@@ -25,7 +25,7 @@ Add-Type $code
 Remove-Item $env:TEMP\* -Recurse -Force -ErrorAction SilentlyContinue
 
 # Delete run box history
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /va /f
+Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU' -Name '*' -Force
 
 # Delete powershell history
 Remove-Item (Get-PSReadlineOption).HistorySavePath
