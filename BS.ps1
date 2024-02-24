@@ -1,4 +1,4 @@
-$picture = "https://raw.githubusercontent.com/VBV11/VBV11/main/EDP.jpeg"
+$picture = "UR OWN IMAGE URL"
 
 iwr $picture -OutFile $env:TEMP\image.jpg
 
