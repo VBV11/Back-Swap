@@ -1,8 +1,8 @@
 $picture = "https://raw.githubusercontent.com/VBV11/VBV11/main/EDP.jpeg"
 
-iwr $picture -OutFile $env:TEMP\horse.jpg
+iwr $picture -OutFile $env:TEMP\image.jpg
 
-$Image = "$env:TEMP\horse.jpg"
+$Image = "$env:TEMP\image.jpg"
 $code = @'
 using System.Runtime.InteropServices; 
 namespace Win32 { 
