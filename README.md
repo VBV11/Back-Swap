@@ -12,11 +12,11 @@ Go to BS.ps1 and change the "UR OWN IMAGE URL"
 
 # One line command in powershell
 
-(Change the URL to ur own URL of the code) powershell -command IEX(IWR URL)
+(Change the URL to ur own URL of the code) IEX(IWR URL)
 
 EXAMPLE
 
-powershell -command IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)
+IEX(IWR https://raw.githubusercontent.com/VBV11/BackSwap/main/BS.ps1)
 
 ![image](https://github.com/VBV11/BackSwap/assets/104235290/f632c341-f864-4334-8fa3-96970affdc9e)
 
